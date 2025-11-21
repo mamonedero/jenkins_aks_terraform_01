@@ -1,0 +1,5 @@
+resource_group_name   = "rg-aks-demo"
+location              = "westeurope"
+storage_account_name  = "tfstate8786"
+acr_name              = "acr-demo"
+aks_name              = "aks-demo"
