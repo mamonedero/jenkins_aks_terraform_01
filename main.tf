@@ -26,11 +26,6 @@ resource "azurerm_kubernetes_cluster" "aks" {
   identity {
     type = "SystemAssigned"
   }
-
-  # Integración con ACR
-  role_based_access_control {
-    enabled = true
-  }
 }
 
 # Asignar permisos para que AKS use ACR
