@@ -1,5 +1,5 @@
 resource_group_name   = "rg-aks-demo"
 location              = "westeurope"
-storage_account_name  = "tfstate8786"
-acr_name              = "acrdemo01"
-aks_name              = "aks-demo"
+storage_account_name  = "stoaccdemo386"
+acr_name              = "acrdemo386"
+aks_name              = "aks-demo386"
