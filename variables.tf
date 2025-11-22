@@ -22,3 +22,9 @@ variable "aks_name" {
   type        = string
   description = "Nombre del AKS"
 }
+
+variable "public_ip_name" {
+  type        = string
+  description = "Nombre de la IP pública"
+  default     = "aks-public-ip"
+}
